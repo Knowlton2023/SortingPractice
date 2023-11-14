@@ -10,11 +10,10 @@ public class Pig {
 	
 	public Pig(String name, String status) {
 		// CREATE the constructor
-
+		this.name = name;
+		this.status = status;
 	}
 
-
-	
 	// Create getter and setter for name and status
 	public String getName() {
 		return name;

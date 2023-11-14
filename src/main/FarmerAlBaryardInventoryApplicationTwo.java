@@ -18,6 +18,7 @@ public class FarmerAlBaryardInventoryApplicationTwo {
 		// the getName getter from the Pig class, save it into the pigNames string array
 		// 3. Sort the pig names
 		// 4. Print the sorted names to the console
+		
 
 	}
 
