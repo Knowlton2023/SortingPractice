@@ -1,5 +1,7 @@
 package main;
 
+import java.util.Arrays;
+
 import main.animals.Pig;
 import main.service.FileService;
 
@@ -19,7 +21,18 @@ public class FarmerAlBaryardInventoryApplicationTwo {
 		// 3. Sort the pig names
 		// 4. Print the sorted names to the console
 		
+		int i = 0;
+		for (Pig pig : pigs) {
+			System.out.println(pig.getName());
+			pigNames[i] = pig.getName();
+			i++;
+		}
 
+		System.out.println("----");
+		Arrays.sort(pigNames);
+		System.out.println("Post-sorting");
+		for (String pigName : pigNames) {
+			System.out.println(pigName);
+		}
 	}
-
 }
