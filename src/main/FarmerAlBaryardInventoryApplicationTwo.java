@@ -23,14 +23,14 @@ public class FarmerAlBaryardInventoryApplicationTwo {
 		
 		int i = 0;
 		for (Pig pig : pigs) {
-			System.out.println(pig.getName());
+//			System.out.println(pig.getName());
 			pigNames[i] = pig.getName();
 			i++;
 		}
 
-		System.out.println("----");
+//		System.out.println("----");
 		Arrays.sort(pigNames);
-		System.out.println("Post-sorting");
+//		System.out.println("Post-sorting");
 		for (String pigName : pigNames) {
 			System.out.println(pigName);
 		}
